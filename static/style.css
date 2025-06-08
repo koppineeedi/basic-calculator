@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background:#f0f0f0; }
+.calculator {
+  background: #fff; width: 300px; margin:50px auto;
+  padding: 20px; border-radius:8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+input, select, button {
+  width: 100%; padding: 10px; margin:8px 0;
+  border-radius:4px; border:1px solid #ccc;
+}
+button { background:#4CAF50; color:#fff; border:none; }
+button:hover { background:#45a049; }
+.error { color: red; }
+.result { font-weight: bold; }
